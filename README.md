@@ -1,4 +1,4 @@
-# ShellScriptBotTelegram
+# Bot Para Telegram em SHELL SCRIPT
 Bot para telegram usando a linguagem ShellScript
 
 Criador do bot: wesley 

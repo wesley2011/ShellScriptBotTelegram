@@ -12,6 +12,8 @@ elif [[ ! -d /etc/ShellBot/Usuarios ]]; then
 	mkdir /etc/ShellBot/Usuarios
 elif [[ ! -d /etc/ShellBot/KickedGroup ]]; then
 	mkdir /etc/ShellBot/KickedGroup
+elif [[ ! -d /etc/ShellBot/GroupPrivate ]]; then
+	mkdir /etc/ShellBot/GroupPrivate
 fi
 
 apt-get install jq -y > /dev/null 2>&1

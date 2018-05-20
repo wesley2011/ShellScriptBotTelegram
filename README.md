@@ -30,7 +30,9 @@ deixa ele rodando em screen
            apt-get install screen
            cd /etc/ShellBot/
            chmod +x bot.sh
-           screen -dmS Bot bot.sh
-com esse comando ele ja iniciará em segundo plano depois disso e so chama seu bot no privado e da o /help para ver os comandos disponivel
-
+           chmod +x ShellBot.sh
+           ./Bot bot.sh
+           
+agora é so chama seu bot no privado e da o /help para ver os comandos disponivel
+recomendo abrir ele em uma screen porque senao quando fecha o servidor ele para
  
